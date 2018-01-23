@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3213fdd1-7841-40e9-ada5-bc72ae0f3ea9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HttpUtil.java" afterPath="$PROJECT_DIR$/src/main/java/HttpUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UrlUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/HttpUtil.class" afterPath="$PROJECT_DIR$/target/classes/HttpUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/HttpUtilTest.class" afterPath="$PROJECT_DIR$/target/test-classes/HttpUtilTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/HttpUtilTest.java" afterPath="$PROJECT_DIR$/src/test/java/HttpUtilTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,12 +18,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HttpUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HttpUtil.java">
+    <leaf>
+      <file leaf-file-name="HttpUtilTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/HttpUtilTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1504">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UrlUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UrlUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="716">
+              <caret line="152" column="4" lean-forward="false" selection-start-line="152" selection-start-column="4" selection-end-line="152" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -52,8 +66,9 @@
         <option value="$PROJECT_DIR$/src/main/java/PropertyUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/FileUtilTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/HttpUtilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HttpUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UrlUtil.java" />
       </list>
     </option>
   </component>
@@ -66,9 +81,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="48" />
-    <option name="y" value="21" />
+    <option name="y" value="46" />
     <option name="width" value="1872" />
-    <option name="height" value="1059" />
+    <option name="height" value="1034" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -85,7 +100,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,20 +125,32 @@
               <item name="ComonUtils" type="b2602c69:ProjectViewProjectNode" />
               <item name="ComonUtils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComonUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComonUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComonUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComonUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../commontool" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -129,6 +158,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -150,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HttpUtilTest.httpPost">
+  <component name="RunManager" selected="Application.UrlUtil">
     <configuration name="HttpUtilTest.httpGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ComonUtils" />
@@ -190,6 +222,20 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration name="UrlUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="UrlUtil" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ComonUtils" />
+      <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -272,14 +318,16 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.HttpUtilTest.httpGet" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.HttpUtilTest.httpPost" />
+      <item index="2" class="java.lang.String" itemvalue="Application.UrlUtil" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HttpUtilTest.httpPost" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.UrlUtil" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.HttpUtilTest.httpGet" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HttpUtilTest.httpPost" />
       </list>
     </recent_temporary>
   </component>
@@ -297,13 +345,16 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HttpUtilTest_httpGet - 2018.01.23 at 14h 35m 12s.xml">
-      <configuration name="HttpUtilTest.httpGet" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HttpUtilTest_httpGet - 2018.01.23 at 14h 36m 03s.xml">
       <configuration name="HttpUtilTest.httpGet" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HttpUtilTest_httpGet - 2018.01.23 at 14h 36m 08s.xml">
+      <configuration name="HttpUtilTest.httpGet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpUtilTest_httpGet - 2018.01.23 at 14h 53m 22s.xml">
+      <configuration name="HttpUtilTest.httpGet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpUtilTest_httpGet - 2018.01.23 at 14h 54m 14s.xml">
       <configuration name="HttpUtilTest.httpGet" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HttpUtilTest_httpPost - 2018.01.23 at 14h 38m 25s.xml">
@@ -331,7 +382,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -342,7 +393,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25274122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25219297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -377,7 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -394,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -410,7 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="119" column="21" lean-forward="false" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -418,7 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-360">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -429,14 +476,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RegexUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -476,7 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1200">
           <caret line="64" column="19" lean-forward="false" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -490,18 +528,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HttpUtilTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/HttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="36" column="46" lean-forward="true" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        <state relative-caret-position="1396">
+          <caret line="112" column="28" lean-forward="true" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RegexUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HttpUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/HttpUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1504">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UrlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="152" column="4" lean-forward="false" selection-start-line="152" selection-start-column="4" selection-end-line="152" selection-end-column="4" />
           <folding />
         </state>
       </provider>

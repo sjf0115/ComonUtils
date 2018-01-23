@@ -12,9 +12,10 @@ import static org.junit.Assert.*;
 public class HttpUtilTest {
     @Test
     public void httpGet() throws Exception {
+
         String url = "https://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php";
         Map<String, String> paramsMap = Maps.newHashMap();
-        paramsMap.put("query", "218.59.255.255");
+        paramsMap.put("query", "0.148.7.0");
         paramsMap.put("resource_id","6006");
         paramsMap.put("t","1516689086692");
         paramsMap.put("ie","utf8");
