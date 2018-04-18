@@ -5,6 +5,7 @@ import org.joda.time.Days;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 /**
@@ -129,6 +130,38 @@ public class DateUtil {
         catch (Exception e){
             return null;
         }
+
+    }
+
+    /**
+     * 星期
+     * @param date
+     * @return
+     * @throws ParseException
+     */
+    public static String getWeek(String date) throws ParseException {
+
+        SimpleDateFormat format = new SimpleDateFormat("yyyyMMdd");
+        Date dt = format.parse(date);
+        return  getWeek(dt);
+
+    }
+
+    /**
+     * 星期
+     * @param date
+     * @return
+     */
+    public static String getWeek(Date date) {
+
+        String[] weekDays = {"星期天", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"};
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(date);
+        int w = cal.get(Calendar.DAY_OF_WEEK) - 1;
+        if (w < 0){
+            w = 0;
+        }
+        return weekDays[w];
 
     }
 

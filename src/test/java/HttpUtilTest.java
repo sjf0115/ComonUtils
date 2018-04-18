@@ -15,7 +15,7 @@ public class HttpUtilTest {
 
         String url = "https://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php";
         Map<String, String> paramsMap = Maps.newHashMap();
-        paramsMap.put("query", "0.148.7.0");
+        paramsMap.put("query", "220.174.87.163");
         paramsMap.put("resource_id","6006");
         paramsMap.put("t","1516689086692");
         paramsMap.put("ie","utf8");
