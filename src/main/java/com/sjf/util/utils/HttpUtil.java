@@ -1,3 +1,5 @@
+package com.sjf.util.utils;
+
 import com.google.common.collect.Lists;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.config.RequestConfig;
@@ -48,7 +50,7 @@ public class HttpUtil {
         HttpGet httpGet = new HttpGet(url);
         httpGet.setConfig(requestConfig);
         URIBuilder uriBuilder = new URIBuilder(url);
-        if(!paramMap.isEmpty()) {
+        if(paramMap != null && !paramMap.isEmpty()) {
             List<NameValuePair> paramsList = paramsConverter(paramMap);
             uriBuilder.setParameters(paramsList);
         }
@@ -73,7 +75,7 @@ public class HttpUtil {
         HttpPost httpPost = new HttpPost(url);
         httpPost.setConfig(requestConfig);
         URIBuilder uriBuilder = new URIBuilder(url);
-        if(!paramMap.isEmpty()) {
+        if(paramMap != null && !paramMap.isEmpty()) {
             List<NameValuePair> paramsList = paramsConverter(paramMap);
             uriBuilder.setParameters(paramsList);
         }

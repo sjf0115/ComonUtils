@@ -1,4 +1,6 @@
-import bean.Coordinate;
+package com.sjf.util.utils;
+
+import com.sjf.util.bean.Coordinate;
 
 /**
  * 坐标工具类

@@ -1,3 +1,5 @@
+package com.sjf.util.utils;
+
 /**
  * Created by xiaosi on 16-12-23.
  */

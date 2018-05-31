@@ -1,3 +1,5 @@
+package com.sjf.util.utils;
+
 import com.google.common.base.Objects;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;

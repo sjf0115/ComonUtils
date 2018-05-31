@@ -1,9 +1,8 @@
 import com.google.common.collect.Maps;
+import com.sjf.util.utils.HttpUtil;
 import org.junit.Test;
 
 import java.util.Map;
-
-import static org.junit.Assert.*;
 
 /**
  * @author sjf0115

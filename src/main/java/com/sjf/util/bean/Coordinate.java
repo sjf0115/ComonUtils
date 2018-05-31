@@ -1,4 +1,4 @@
-package bean;
+package com.sjf.util.bean;
 
 /**
  * 坐标
